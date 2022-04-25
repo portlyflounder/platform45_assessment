@@ -22,7 +22,7 @@ def run():
             raw_image = cv2.imread(str(raw_image_filepath))
 
             annotated_region_mask = (anno_image_gray < 255).astype(np.uint8)
-            annotated_region = raw_image * np.stack([annotated_region_mask, annotated_region_mask, annotated_region_mask], axis=-1)
+            annotated_region = raw_image * np.stack([annotated_region_mask] * 3, axis=-1)
             annotated_region_filepath = Path(ANNOTATED_REGIONS_OUTPUT_DIR).joinpath(Path(anno_image_filepath).name).with_suffix(".jpg")
             cv2.imwrite(str(annotated_region_filepath), annotated_region)
     
