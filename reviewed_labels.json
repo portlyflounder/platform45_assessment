@@ -1,0 +1,352 @@
+{
+    "image_0": {
+        "filepaths": {
+            "annotation": "data/annotations/0.png",
+            "overlay": "data/overlays/0.png",
+            "raw": "data/raw/0.jpg"
+        },
+        "annotated": true,
+        "acceptable": true,
+        "comments": "Dog is excluded by a cat - but enough salient features are visible."
+    },
+    "image_1": {
+        "filepaths": {
+            "annotation": "data/annotations/1.png",
+            "overlay": "data/overlays/1.png",
+            "raw": "data/raw/1.jpg"
+        },
+        "annotated": true,
+        "acceptable": true,
+        "comments": "None."
+    },
+    "image_2": {
+        "filepaths": {
+            "annotation": "data/annotations/2.png",
+            "overlay": "data/overlays/2.png",
+            "raw": "data/raw/2.jpg"
+        },
+        "acceptable": true,
+        "annotated": true,
+        "comments": "Excessive padding on top of the dogs head - can be improved."
+    },
+    "image_3": {
+        "filepaths": {
+            "annotation": "data/annotations/3.png",
+            "overlay": "data/overlays/3.png",
+            "raw": "data/raw/3.jpg"
+        },
+        "annotated": true,
+        "acceptable": false,
+        "comments": "This is not a dog - rather frightening."
+    },
+    "image_4": {
+        "filepaths": {
+            "annotation": "data/annotations/4.png",
+            "overlay": "data/overlays/4.png",
+            "raw": "data/raw/4.jpg"
+        },
+        "annotated": true,
+        "acceptable": true,
+        "comments": "None."
+    },
+    "image_5": {
+        "filepaths": {
+            "annotation": "data/annotations/5.png",
+            "overlay": "data/overlays/5.png",
+            "raw": "data/raw/5.jpg"
+        },
+        "annotated": true,
+        "acceptable": false,
+        "comments": "Excessive padding around the dog."
+    },
+    "image_6": {
+        "filepaths": {
+            "annotation": "data/annotations/6.png",
+            "overlay": "data/overlays/6.png",
+            "raw": "data/raw/6.jpg"
+        },
+        "annotated": true,
+        "acceptable": false,
+        "comments": "1.Missing annotations for many dogs, i.e. the dogs on the left hand side of the image.\n2.Dogs on right hand side all belong to the same annotation (since they all are occluded) - which is good.\n3.Do not label dogs on top of image where only their legs and torso are visible."
+    },
+    "image_7": {
+        "filepaths": {
+            "annotation": "data/annotations/7.png",
+            "overlay": "data/overlays/7.png",
+            "raw": "data/raw/7.jpg"
+        },
+        "annotated": true,
+        "acceptable": false,
+        "comments": "Cat is annotated."
+    },
+    "image_8": {
+        "filepaths": {
+            "annotation": "data/annotations/8.png",
+            "overlay": "data/overlays/8.png",
+            "raw": "data/raw/8.jpg"
+        },
+        "annotated": true,
+        "acceptable": true,
+        "comments": "Dog is occluded by a pigeons head, but enough salient features a visible."
+    },
+    "image_9": {
+        "filepaths": {
+            "annotation": "data/annotations/9.png",
+            "overlay": "data/overlays/9.png",
+            "raw": "data/raw/9.jpg"
+        },
+        "annotated": true,
+        "acceptable": true,
+        "comments": "None."
+    },
+    "image_10": {
+        "filepaths": {
+            "annotation": "data/annotations/10.png",
+            "overlay": "data/overlays/10.png",
+            "raw": "data/raw/10.jpg"
+        },
+        "annotated": true,
+        "acceptable": true,
+        "comments": "None."
+    },
+    "image_11": {
+        "filepaths": {
+            "annotation": "data/annotations/11.png",
+            "overlay": "data/overlays/11.png",
+            "raw": "data/raw/11.jpg"
+        },
+        "annotated": true,
+        "acceptable": false,
+        "comments": "Annotation does not include all of the dog."
+    },
+    "image_12": {
+        "filepaths": {
+            "annotation": "data/annotations/12.png",
+            "overlay": "data/overlays/12.png",
+            "raw": "data/raw/12.jpg"
+        },
+        "annotated": true,
+        "acceptable": true,
+        "comments": "None."
+    },
+    "image_13": {
+        "filepaths": {
+            "annotation": "data/annotations/13.png",
+            "overlay": "data/overlays/13.png",
+            "raw": "data/raw/13.jpg"
+        },
+        "annotated": true,
+        "acceptable": true,
+        "comments": "None."
+    },
+    "image_14": {
+        "filepaths": {
+            "annotation": "data/annotations/14.png",
+            "overlay": "data/overlays/14.png",
+            "raw": "data/raw/14.jpg"
+        },
+        "annotated": true,
+        "acceptable": true,
+        "comments": "All dogs should be coloured with the same annotation."
+    },
+    "image_15": {
+        "filepaths": {
+            "annotation": "data/annotations/15.png",
+            "overlay": "data/overlays/15.png",
+            "raw": "data/raw/15.jpg"
+        },
+        "annotated": true,
+        "acceptable": false,
+        "comments": "Dog on the left and centre have to much padding."
+    },
+    "image_16": {
+        "filepaths": {
+            "annotation": "data/annotations/16.png",
+            "overlay": "data/overlays/16.png",
+            "raw": "data/raw/16.jpg"
+        },
+        "annotated": false,
+        "acceptable": false,
+        "comments": "Missing annotation for dog."
+    },
+    "image_17": {
+        "filepaths": {
+            "annotation": "data/annotations/17.png",
+            "overlay": "data/overlays/17.png",
+            "raw": "data/raw/17.jpg"
+        },
+        "annotated": true,
+        "acceptable": false,
+        "comments": "Slighlty too much padding and the lifted leg should be included (excluding the paw)."
+    },
+    "image_18": {
+        "filepaths": {
+            "annotation": "data/annotations/18.png",
+            "overlay": "data/overlays/18.png",
+            "raw": "data/raw/18.jpg"
+        },
+        "annotated": true,
+        "acceptable": false,
+        "comments": "Annotation should not contain any of the toys - only the dog."
+    },
+    "image_19": {
+        "filepaths": {
+            "annotation": "data/annotations/19.png",
+            "overlay": "data/overlays/19.png",
+            "raw": "data/raw/19.jpg"
+        },
+        "annotated": true,
+        "acceptable": false,
+        "comments": "Annotation should include all of the dog (annotation does not include the back fof tehe dog)."
+    },
+    "image_20": {
+        "filepaths": {
+            "annotation": "data/annotations/20.png",
+            "overlay": "data/overlays/20.png",
+            "raw": "data/raw/20.jpg"
+        },
+        "annotated": true,
+        "acceptable": false,
+        "comments": "Annotation includes a foreign object (maybe a frisbee?)."
+    },
+    "image_21": {
+        "filepaths": {
+            "annotation": "data/annotations/21.png",
+            "overlay": "data/overlays/21.png",
+            "raw": "data/raw/21.jpg"
+        },
+        "annotated": true,
+        "acceptable": true,
+        "comments": "None."
+    },
+    "image_22": {
+        "filepaths": {
+            "annotation": "data/annotations/22.png",
+            "overlay": "data/overlays/22.png",
+            "raw": "data/raw/22.jpg"
+        },
+        "annotated": true,
+        "acceptable": true,
+        "comments": "None."
+    },
+    "image_23": {
+        "filepaths": {
+            "annotation": "data/annotations/23.png",
+            "overlay": "data/overlays/23.png",
+            "raw": "data/raw/23.jpg"
+        },
+        "annotated": false,
+        "acceptable": true,
+        "comments": "None."
+    },
+    "image_24": {
+        "filepaths": {
+            "annotation": "data/annotations/24.png",
+            "overlay": "data/overlays/24.png",
+            "raw": "data/raw/24.jpg"
+        },
+        "annotated": true,
+        "acceptable": false,
+        "comments": "All dog should be coloured with the same annotation, since the all occlude one another. Also ensure to include all features of all the dogs."
+    },
+    "image_25": {
+        "filepaths": {
+            "annotation": "data/annotations/25.png",
+            "overlay": "data/overlays/25.png",
+            "raw": "data/raw/25.jpg"
+        },
+        "annotated": true,
+        "acceptable": false,
+        "comments": "Annotation is all 'blobby' - fix please."
+    },
+    "image_26": {
+        "filepaths": {
+            "annotation": "data/annotations/26.png",
+            "overlay": "data/overlays/26.png",
+            "raw": "data/raw/26.jpg"
+        },
+        "annotated": true,
+        "acceptable": false,
+        "comments": "Annotation is a bit blobby and paws should be annotated correctly (do not include the blue texture between the paws)."
+    },
+    "image_27": {
+        "filepaths": {
+            "annotation": "data/annotations/27.png",
+            "overlay": "data/overlays/27.png",
+            "raw": "data/raw/27.jpg"
+        },
+        "annotated": true,
+        "acceptable": false,
+        "comments": "Annotation included too much of the cats fur."
+    },
+    "image_28": {
+        "filepaths": {
+            "annotation": "data/annotations/28.png",
+            "overlay": "data/overlays/28.png",
+            "raw": "data/raw/28.jpg"
+        },
+        "annotated": true,
+        "acceptable": true,
+        "comments": "Annotation has slightly too much padding - can be improved."
+    },
+    "image_29": {
+        "filepaths": {
+            "annotation": "data/annotations/29.png",
+            "overlay": "data/overlays/29.png",
+            "raw": "data/raw/29.jpg"
+        },
+        "annotated": true,
+        "acceptable": false,
+        "comments": "Too much padding - includes too much of the snow texture."
+    },
+    "image_30": {
+        "filepaths": {
+            "annotation": "data/annotations/30.png",
+            "overlay": "data/overlays/30.png",
+            "raw": "data/raw/30.jpg"
+        },
+        "annotated": true,
+        "acceptable": true,
+        "comments": "None."
+    },
+    "image_31": {
+        "filepaths": {
+            "annotation": "data/annotations/31.png",
+            "overlay": "data/overlays/31.png",
+            "raw": "data/raw/31.jpg"
+        },
+        "annotated": false,
+        "acceptable": false,
+        "comments": "This is a cartoon image."
+    },
+    "image_32": {
+        "filepaths": {
+            "annotation": "data/annotations/32.png",
+            "overlay": "data/overlays/32.png",
+            "raw": "data/raw/32.jpg"
+        },
+        "annotated": true,
+        "acceptable": false,
+        "comments": "Each dog should be annotated separately, since they do not occlude one another."
+    },
+    "image_33": {
+        "filepaths": {
+            "annotation": "data/annotations/33.png",
+            "overlay": "data/overlays/33.png",
+            "raw": "data/raw/33.jpg"
+        },
+        "annotated": true,
+        "acceptable": false,
+        "comments": "Are these dogs ore main coons (a cat)? Do not annotate."
+    },
+    "image_34": {
+        "filepaths": {
+            "annotation": "data/annotations/34.png",
+            "overlay": "data/overlays/34.png",
+            "raw": "data/raw/34.jpg"
+        },
+        "annotated": true,
+        "acceptable": false,
+        "comments": "The bottle can be part of the annotation. In reality we can expect dogs to have objects in their mouths (toys, sticks etc)."
+    }
+}
