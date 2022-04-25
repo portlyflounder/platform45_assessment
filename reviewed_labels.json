@@ -146,7 +146,7 @@
             "raw": "data/raw/14.jpg"
         },
         "annotated": true,
-        "acceptable": true,
+        "acceptable": false,
         "comments": "All dogs should be coloured with the same annotation."
     },
     "image_15": {
@@ -236,7 +236,7 @@
             "raw": "data/raw/23.jpg"
         },
         "annotated": false,
-        "acceptable": true,
+        "acceptable": false,
         "comments": "None."
     },
     "image_24": {
