@@ -5,7 +5,7 @@ import json
 import numpy as np
 from pathlib import Path
 
-JSON_FILE = "reviewed_labels.json"
+JSON_FILE = "data/reviewed_annotations.json"
 ANNOTATED_REGIONS_OUTPUT_DIR = "data/annotated_regions"
 
 def run():
