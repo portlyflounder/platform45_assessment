@@ -14,6 +14,10 @@ ANNOTATED_REGIONS_OUTPUT_DIR = "data/annotated_regions"
 def run():
     """Extracts the annoated doggy regions from each image and saves it to file."""
 
+    # Create the output directory if it does not exist.
+    if not Path(ANNOTATED_REGIONS_OUTPUT_DIR).exists():
+        Path(ANNOTATED_REGIONS_OUTPUT_DIR).mkdir(parents=True)
+
     # Load the json file containing the reviewed annotations.
     with open(JSON_FILE, "r") as json_file:
         reviewed_image_data = json.loads(json_file.read())
