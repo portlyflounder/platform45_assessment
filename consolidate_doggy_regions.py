@@ -17,7 +17,7 @@ def run():
     num_cols = math.ceil(math.sqrt(num_images))
     num_rows = math.ceil(num_images / num_cols)
 
-    fig, axes = plt.subplots(num_rows, num_cols, figsize=FIGURE_SIZE, gridspec_kw = {'wspace':0, 'hspace':0})
+    _, axes = plt.subplots(num_rows, num_cols, figsize=FIGURE_SIZE, gridspec_kw = {'wspace':0, 'hspace':0})
     for filepath, ax in zip(image_filepaths, axes.flatten()):
         image = cv2.imread(str(filepath))
         image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
