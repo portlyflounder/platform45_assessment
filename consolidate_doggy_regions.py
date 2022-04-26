@@ -9,7 +9,7 @@ GOOD_ANNOATED_IMAGE_DIR = "data/annotated_regions"
 IMAGE_RESIZE_HEIGHT = 224
 IMAGE_RESIZE_WIDTH = 224
 FIGURE_SIZE = (8, 8)
-OUTPUT_FILEPATH = "doggy_collage.png"
+OUTPUT_FILEPATH = "data/doggy_collage.png"
 
 def run():
     image_filepaths = [image_filepath for image_filepath in Path(GOOD_ANNOATED_IMAGE_DIR).iterdir()]
